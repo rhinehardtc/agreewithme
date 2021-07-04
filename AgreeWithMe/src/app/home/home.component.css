@@ -1,0 +1,8 @@
+.banner-bar {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px solid black;
+}
