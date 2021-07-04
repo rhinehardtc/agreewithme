@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
