@@ -1,6 +1,6 @@
 .feed-area {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -8,7 +8,68 @@
 }
 
 .feed-box {
-    width: 50%;
+    display: flex;
+    flex-flow: column reverse nowrap;
+    width: 60%;
     height: 80%;
+    margin-top: 4%;
+    margin-bottom: 0.5%;
+    overflow-y: scroll;
     border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(43, 1, 51);
+}
+
+.bottom-bar {
+    display: flex;
+    flex-flow: row-reverse;
+    width: 60%;
+    height: 8vh;
+    /* border: 1px solid red; */
+    align-items: flex-end;
+}
+
+.post-button {
+    font-size: 6vh;
+    background-color: #80669d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 2px black;
+}
+
+.post-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: #562869;
+    border-top: 1px solid azure;
+}
+
+.post-input {
+    width: 80%;
+    height: 9.5vh;
+    border-radius: 5px;
+    resize: none;
+}
+
+.submit-post-button {
+    color: white;
+    height: 10vh;
+    font-size: 6vh;
+    user-select: none;
+}
+
+.submit-post-button:active {
+    color: #e8bc62;
+    font-size: 6.1vh;
+    text-shadow: 2px 2px #1b0f1b;
+}
+
+.submit-post-button:hover {
+    cursor: pointer;
 }

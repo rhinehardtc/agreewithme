@@ -5,12 +5,14 @@
     align-items: center;
     height: 6vh;
     border-bottom: 1px solid black;
+    background-color: #80669d;
 }
 
 .login-button {
     margin-right: 0.5vmin;
 }
 
-button:hover {
-    cursor: pointer;
+button {
+    width: 10%;
+    height: 80%;
 }
