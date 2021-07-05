@@ -1,0 +1,35 @@
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.signup-form {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry-fields {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 1vmin;
+}
+
+input {
+    height: 3vh;
+}
+
+.name-input {
+    margin-bottom: 0.5vmin;
+}
+
+.login-button {
+    height: 8vh
+}
+
