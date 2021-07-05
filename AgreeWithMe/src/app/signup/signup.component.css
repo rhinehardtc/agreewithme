@@ -29,7 +29,11 @@ input {
     margin-bottom: 0.5vmin;
 }
 
-.login-button {
+.signup-button {
     height: 8vh
+}
+
+button:hover {
+    cursor: pointer;
 }
 
