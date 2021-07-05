@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FeedComponent } from '../feed/feed.component';
 
 @Component({
   selector: 'app-home',
@@ -12,5 +11,4 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
