@@ -10,20 +10,21 @@
 .feed-box {
     display: flex;
     flex-flow: column reverse nowrap;
-    width: 60%;
+    width: 70%;
     height: 80%;
     margin-top: 4%;
     margin-bottom: 0.5%;
     overflow-y: scroll;
     border: 1px solid black;
-    border-radius: 4px;
-    background-color: rgb(43, 1, 51);
+    border-radius: 8px;
+    background-color: rgb(37, 1, 44);
+    box-shadow: 2px 2px 5px 2px black;
 }
 
 .bottom-bar {
     display: flex;
     flex-flow: row-reverse;
-    width: 60%;
+    width: 70%;
     height: 8vh;
     /* border: 1px solid red; */
     align-items: flex-end;
@@ -36,6 +37,11 @@
     border: none;
     border-radius: 4px;
     box-shadow: 2px 2px 5px 2px black;
+}
+
+.post-button:active {
+    color:#e8bc62;
+    box-shadow: 2px 2px 7px 4px black;
 }
 
 .post-bar {

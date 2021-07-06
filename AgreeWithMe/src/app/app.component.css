@@ -10,6 +10,7 @@
     font-family: 'Pacifico', cursive;
     background-color: #562869;
     color: white;
+    text-shadow: 3px 3px 0 #e8bc62, 5px 5px 0 #000;
 }
 
 .title:hover {
