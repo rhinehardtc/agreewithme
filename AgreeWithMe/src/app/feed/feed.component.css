@@ -9,7 +9,7 @@
 
 .feed-box {
     display: flex;
-    flex-flow: column reverse nowrap;
+    flex-flow: column-reverse nowrap;
     width: 70%;
     height: 80%;
     margin-top: 4%;
