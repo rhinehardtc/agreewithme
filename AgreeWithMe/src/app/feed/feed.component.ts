@@ -10,6 +10,7 @@ import { PostService } from '../post.service';
 export class FeedComponent implements OnInit {
 
   public posts: IPost[] = [];
+  public postBarClass: string = "post-bar";
 
   constructor(private _postService: PostService) { }
 
@@ -18,6 +19,10 @@ export class FeedComponent implements OnInit {
         .subscribe(posts => {
             this.posts = posts;
         });
+  }
+
+  togglePostBar(){
+    this.postBarClass === "post-bar" ? this.postBarClass = "collapsed-post-bar" : this.postBarClass = "post-bar";
   }
 
 }

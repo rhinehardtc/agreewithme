@@ -3,12 +3,12 @@
         <div class='posts-box'>
             <app-post *ngFor="let post of posts" [post]="post"></app-post>
         </div>
-        <div class='post-bar'>
+        <div class='{{postBarClass}}'>
             <textarea class='post-input' placeholder='Voice your opinion!'></textarea>
             <div class='submit-post-button'>⌲</div>
         </div>
     </div>
     <div class='bottom-bar'>
-        <button class='post-button'>✍︎</button>
+        <button class='post-button' (click)="togglePostBar()">✍︎</button>
     </div>
 </div>

@@ -1,4 +1,7 @@
 .post-div {
+    width: 30vw;
+    height: fit-content;
     color: white;
+    margin-top: 5%;
     border: 1px solid yellow;
 }
