@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FeedComponent } from './feed/feed.component';
 import { SignupComponent } from './signup/signup.component';
+import { PostComponent } from './post/post.component';
+import { PostService } from './post.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,12 +17,14 @@ import { SignupComponent } from './signup/signup.component';
     FeedComponent,
     routingComponents,
     SignupComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [PostService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

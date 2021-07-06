@@ -1,0 +1,10 @@
+{
+    "posts": [
+        { "id": 1, "user": "Cameron", "body": "I'm the best!", "agrees": 5, "disagrees": 0 },
+        { "id": 2, "user": "Chris", "body": "I'm the best!", "agrees": 2, "disagrees": 0 },
+        { "id": 3, "user": "Ian", "body": "I'm the best!", "agrees": 4, "disagrees": 1 },
+        { "id": 4, "user": "Cameron", "body": "I'm the best!", "agrees": 5, "disagrees": 0 },
+        { "id": 5, "user": "Chris", "body": "I'm the best!", "agrees": 50, "disagrees": 0 },
+        { "id": 6, "user": "Cameron", "body": "I'm the best!", "agrees": 5, "disagrees": 10 }
+    ]
+}
