@@ -1,11 +1,3 @@
-/* .post-div {
-    width: 100%;
-    color: white;
-    background-color: hsl(268, 22%, 51%) ;
-    margin-top: 5%;
-    border: 1px solid black; 
-} */
-
 .post-content {
     display: flex;
     flex-flow: row;
@@ -33,6 +25,8 @@
     flex: 2;
     border-left: 1px solid white;
     border-right: 1px solid white;
+    font-size: 2vmin;
+    overflow-y: scroll;
 }
 
 .button-box {
@@ -52,13 +46,13 @@
 }
 
 .counter-span {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
 }
 
 button {
-    width: 50%;
+    width: 40%;
     height: 50%;
     font-family: 'Pacifico', cursive;
     font-size: 1.5vmin;
@@ -68,4 +62,8 @@ button {
     margin-left: 2%;
     margin-right: 2%;
     padding: 0%;
+}
+
+h4 {
+    font-size: 2vmin;
 }
