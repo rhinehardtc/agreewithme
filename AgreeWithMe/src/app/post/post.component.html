@@ -1,6 +1,18 @@
-<div class="post-div">
-    <h3>{{post.user}}</h3>
-    <p>{{post.body}}</p>
-    <h3>{{post.agrees}}</h3>
-    <h3>{{post.disagrees}}</h3>
+<div class="post-content">
+    <h3 class="post-user">{{post.user}}</h3>
+    <p class="post-body">{{post.body}}</p>
+    <div class="post-buttons">
+        <div class="button-box">
+            <button>✔️</button>
+            <span class="counter-span">
+                <h4>{{post.agrees}}</h4>
+            </span>
+        </div>
+        <div class="button-box">
+            <button>✖️</button>
+            <span class="counter-span">
+                <h4>{{post.disagrees}}</h4>
+            </span>
+        </div>
+    </div>
 </div>
