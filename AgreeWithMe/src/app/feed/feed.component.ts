@@ -10,7 +10,7 @@ import { PostService } from '../post.service';
 export class FeedComponent implements OnInit {
 
   public posts: IPost[] = [];
-  public postBarClass: string = "post-bar";
+  public postBarClass: string = "collapsed-post-bar";
 
   constructor(private _postService: PostService) { }
 
