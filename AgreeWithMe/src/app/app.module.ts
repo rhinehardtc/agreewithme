@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { PostComponent } from './post/post.component';
 import { PostService } from './post.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     routingComponents,
     SignupComponent,
     PostComponent,
+    ErrorPageComponent,
   ],
   imports: [
     BrowserModule,
