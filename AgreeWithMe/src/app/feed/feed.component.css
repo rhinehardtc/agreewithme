@@ -35,6 +35,8 @@
     width: 8vmin;
     height: 8vmin;
     font-size: 5vmin;
+    text-align: center;
+    justify-content: center;
     background-color: #80669d;
     color: white;
     border: none;
